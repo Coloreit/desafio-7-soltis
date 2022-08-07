@@ -1,0 +1,26 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249,189,215);
+$verde: rgb(0,194,1);
+
+/*Footer - Todos los HTML*/
+
+footer {
+    background-color: $celeste;
+    width: 100%;
+    height: 60px;
+    color: #000000;
+    margin-top: 3rem;
+
+    div {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: space-around;
+
+        p {
+            justify-content: center;
+        }
+    }
+}
