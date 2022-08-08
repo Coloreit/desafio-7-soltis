@@ -14,7 +14,6 @@ body {
   color: #1a1a92;
   font-size: 1.2em; }
 
-/*Colores: CELESTE: 52,196,204; NARANJA: 248,167,24; ROSA: 249,189,215; VERDE: 0,194,1*/
 /*Header*/
 .logo-principal {
   font-size: 20px;
@@ -42,8 +41,21 @@ body {
   border: 3px solid #f8a718;
   transform: translateX(50%); }
 
+/*Navegador*/
+.navbar {
+  background-color: #34c4cc; }
+  .navbar div a {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.2em; }
+
 .navbar li:hover {
   transform: scale(1.2); }
+
+.navbar-nav > li {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.2em; }
 
 .navbar-brand:hover {
   transform: scale(1.2); }
@@ -278,6 +290,15 @@ footer {
     footer div p {
       justify-content: center; }
 
+@media screen and (max-width: 1130px) {
+  .navbar div a {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .navbar-nav > li {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.2em; } }
+
 @media screen and (max-width: 1100px) {
   .local img {
     height: 60vh; }
@@ -313,6 +334,8 @@ footer {
     font-size: 1.2rem; } }
 
 @media screen and (max-width: 970px) {
+  .navbar-nav > li {
+    font-size: 1em; }
   #contact-main {
     width: 98%;
     display: flex;

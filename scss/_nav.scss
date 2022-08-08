@@ -1,7 +1,31 @@
+$naranja: rgb(248, 167, 24);
+$celeste: rgb(52, 196, 204);
+$rosa: rgb(249, 189, 215);
+$verde: rgb(0, 194, 1);
+
+/*Navegador*/
+.navbar {
+    background-color: $celeste;
+
+    div {
+        a {
+            margin-left: 30px;
+            margin-right: 30px;
+            font-size: 1.2em;
+        }
+    }
+}
+
 .navbar li:hover {
     transform: scale(1.2);
-} 
+}
+
+.navbar-nav>li {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.2em;
+}
 
 .navbar-brand:hover {
     transform: scale(1.2);
-} 
+}

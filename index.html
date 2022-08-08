@@ -25,22 +25,25 @@
     <!-- Mi hoja de estilo -->
     <link rel="stylesheet" href="./css/styles.css">
 
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
     <!-- Título -->
-    <title>BabyBoom</title>
+    <title>BabyBoom - Lo mejor para tu bebé</title>
 </head>
 
 <body>
     <!-- Header, H1 y P oculto -->
     <header class="logo-principal">
         <h1>Baby Boom pañalera - Villa Nueva</h1>
-        <img src="./images/logo.jpg" alt="BabyBoom">
+        <img src="./images/logo.jpg" alt="BabyBoom" class="animate__animated animate__bounce">
         <p>Bienvenidos a nustro sitio oficial, donde podrás encontrar toda la variedad de productos y servicios que
             brindamos</p>
     </header>
 
     <!-- Navegador -->
 
-    <nav class="navbar d-flex justify-content-between navbar-expand-lg bg-info">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">BabyBoom</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -50,22 +53,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Productos
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="./pages/products.html">Todos</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="./pages/productos/indumentaria.html">Indumentaria</a>
-                            </li>
-                            <li><a class="dropdown-item" href="./pages/productos/indumentaria.html">Accesorios</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pages/products.html">Productos</a>
                     </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="./pages/about.html">Nosotros</a>
                     </li>
@@ -81,10 +71,9 @@
     </nav>
 
     <main>
-        <div class="local animate__animated animate__bounce">
+        <div class="local">
             <img src="./images/local-2.jpeg" class="img-fluid" alt="Local">
-            <p>Nuestro local se encuentra en el corazon de Villa Nueva, los esperamos! Van a encontrar todos los
-                productos que necesitan para su bebe.</p>
+            <p>Nuestro local se encuentra en el corazon de Villa Nueva, los esperamos! Van a encontrar todos los productos que necesitan para su bebe.</p>
         </div>
 
         <!-- Galería de productos -->
@@ -181,7 +170,7 @@
         </div>
 
         <!-- Sección envíos y formas de pago -->
-        <section class="img-pago">
+        <section class="img-pago animate__bounceIn">
             <div class="contenedor">
                 <div class="pago">
                     <img src="./images/medios-de-pago.jpg" alt="Medios de pago">
