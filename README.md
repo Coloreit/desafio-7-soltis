@@ -15,3 +15,7 @@ Agregué Favicon
 Volví a mi galería original (desafío 4)
 
 Agregué operaciones con $unidadpx
+
+Agregué MAPA en la sección INDUMENTARIA
+
+Agregué EXTEND en la sección PAÑALES

@@ -32,15 +32,6 @@ body {
     display: none;
     visibility: hidden; }
 
-/*Tabla de talles*/
-.talles h3 {
-  padding: 10px; }
-
-.tabla-talles {
-  width: 50%;
-  border: 5px solid #f8a718;
-  transform: translateX(50%); }
-
 /*Navegador*/
 .navbar {
   background-color: #34c4cc; }
@@ -404,3 +395,48 @@ footer {
     height: auto; }
   .nosotros p {
     font-size: 15px; } }
+
+/*Tabla de talles*/
+.talles h3 {
+  padding: 10px; }
+
+.tabla-talles {
+  width: 50%;
+  border: 5px solid #f8a718;
+  transform: translateX(50%); }
+
+/* MAPA */
+.btn-categoria {
+  background-color: #f8a718;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px; }
+
+.btn-subcategoria {
+  background-color: #f9bdd7;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px; }
+
+/*Productos*/
+.marcas {
+  display: flex;
+  width: 90vw;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px; }
+
+/*Extend*/
+.panal, .panal-tamano {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f9bdd7;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px; }
+
+.panal-tamano {
+  font-weight: lighter;
+  background-color: #f8a718; }

@@ -46,15 +46,3 @@ body {
         visibility: hidden;
     }
 }
-
-/*Tabla de talles*/
-
-.talles h3 {
-    padding: $unidadpx;
-}
-
-.tabla-talles{
-    width: 50%;
-    border: $unidadpx / 2 solid $naranja;
-    transform: translateX(50%);
-}
