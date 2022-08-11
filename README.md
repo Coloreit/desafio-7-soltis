@@ -7,3 +7,11 @@ Le saqué el desplegable a productos porque no me convencía
 Cambié el color del navbar por el celeste del logo
 
 Mejoré las animaciones
+
+Agregue keywords y description por página
+
+Agregué Favicon
+
+Volví a mi galería original (desafío 4)
+
+Agregué operaciones con $unidadpx

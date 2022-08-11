@@ -2,6 +2,7 @@ $naranja: rgb(248, 167, 24);
 $celeste: rgb(52, 196, 204);
 $rosa: rgb(249,189,215);
 $verde: rgb(0,194,1);
+$unidadpx: 10px;
 
 /* Ubicación de contact.html */ 
 
@@ -30,33 +31,33 @@ $verde: rgb(0,194,1);
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: $unidadpx * 2;
 }
 
 #form1 {
     background-color: rgba(52, 196, 204, 0.158);
-    border-radius: 1em;
+    border-radius: $unidadpx;
     height: 100%;
 
     span {
         display: inline-block;
-        margin: 10px;
+        margin: $unidadpx;
     }
 
     div {
         display: block;
-        margin: 10px;
+        margin: $unidadpx;
     }
 }
 
 .rosa {
-    font-size: 1.5rem;
+    font-size: $unidadpx * 2.5;
     font-weight: bold;
     text-align: center;
     background-color: $rosa;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 1rem;
+    border-radius: $unidadpx * 1.5;
+    padding: $unidadpx;
+    margin: $unidadpx;
 }
 
 .contact {
@@ -66,18 +67,18 @@ $verde: rgb(0,194,1);
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: $unidadpx * 2;
 
     iframe{
         width: 80%;
         height: 50%;
         object-fit: cover;
-        border-radius: 1em 1em 0 0;
-        margin: 0 1em;
+        border-radius: $unidadpx $unidadpx 0 0;
+        margin: 0 $unidadpx;
     }
 
     ul {
-        font-size: 1.5rem;
+        font-size: $unidadpx * 2.5;
         height: 50%;
         width: 80%;
         background-color:rgb(229, 229, 229);
@@ -85,7 +86,7 @@ $verde: rgb(0,194,1);
         flex-direction: column;
         justify-content: space-around;
         list-style: none;
-        border-radius: 0 0 1em 1em;
-        margin: 0 1em;
+        border-radius: 0 0 $unidadpx $unidadpx;
+        margin: 0 $unidadpx;
     }
 }

@@ -2,6 +2,7 @@ $naranja: rgb(248, 167, 24);
 $celeste: rgb(52, 196, 204);
 $rosa: rgb(249,189,215);
 $verde: rgb(0,194,1);
+$unidadpx: 10px;
 
 /* Main de faq.html */ 
 
@@ -11,23 +12,23 @@ $verde: rgb(0,194,1);
     flex-flow: column;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: $unidadpx * 2;
 
     h3 {
-        font-size: 1.5rem;
+        font-size: $unidadpx * 2.5;
         font-weight: bold;
         text-align: center;
         background-color: $rosa;
-        border-radius: 1rem;
-        padding: 1rem;
-        margin: 1rem;
+        border-radius: $unidadpx;
+        padding: $unidadpx;
+        margin: $unidadpx;
     }
 
     p {
         color: #000000;
-        font-size: 1.5rem;
+        font-size: $unidadpx * 1.5;
         text-align: center;
-        padding: 1rem;
-        margin: 1rem;
+        padding: $unidadpx;
+        margin: $unidadpx;
     }
 }
