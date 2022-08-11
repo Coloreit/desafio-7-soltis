@@ -209,6 +209,7 @@ body {
   grid-area: ubicacion; }
 
 /* Formulario de contact.html */
+/*Mixin*/
 .form {
   display: flex;
   width: 100%;
@@ -221,6 +222,8 @@ body {
 #form1 {
   background-color: rgba(52, 196, 204, 0.158);
   border-radius: 10px;
+  padding: 0;
+  margin: 0;
   height: 100%; }
   #form1 span {
     display: inline-block;
@@ -251,6 +254,7 @@ body {
     height: 50%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
+    padding: 0;
     margin: 0 10px; }
   .contact ul {
     font-size: 25px;
@@ -261,8 +265,54 @@ body {
     flex-direction: column;
     justify-content: space-around;
     list-style: none;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px 10px 0 0;
+    padding: 0;
     margin: 0 10px; }
+
+/*Tabla de talles*/
+.talles h3 {
+  padding: 10px; }
+
+.tabla-talles {
+  width: 50%;
+  border: 5px solid #f8a718;
+  transform: translateX(50%); }
+
+/* MAPA */
+.btn-categoria {
+  background-color: #f8a718;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px; }
+
+.btn-subcategoria {
+  background-color: #f9bdd7;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px; }
+
+/*Productos*/
+.marcas {
+  display: flex;
+  width: 90vw;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px; }
+
+/*Extend*/
+.panal, .panal-tamano {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f9bdd7;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px; }
+
+.panal-tamano {
+  font-weight: lighter;
+  background-color: #f8a718; }
 
 /*Footer - Todos los HTML*/
 footer {
@@ -395,48 +445,3 @@ footer {
     height: auto; }
   .nosotros p {
     font-size: 15px; } }
-
-/*Tabla de talles*/
-.talles h3 {
-  padding: 10px; }
-
-.tabla-talles {
-  width: 50%;
-  border: 5px solid #f8a718;
-  transform: translateX(50%); }
-
-/* MAPA */
-.btn-categoria {
-  background-color: #f8a718;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 10px; }
-
-.btn-subcategoria {
-  background-color: #f9bdd7;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 10px; }
-
-/*Productos*/
-.marcas {
-  display: flex;
-  width: 90vw;
-  flex-flow: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 20px; }
-
-/*Extend*/
-.panal, .panal-tamano {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
-  background-color: #f9bdd7;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 10px; }
-
-.panal-tamano {
-  font-weight: lighter;
-  background-color: #f8a718; }

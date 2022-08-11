@@ -19,3 +19,5 @@ Agregué operaciones con $unidadpx
 Agregué MAPA en la sección INDUMENTARIA
 
 Agregué EXTEND en la sección PAÑALES
+
+Agregué MIXIN en la sección CONTACT
